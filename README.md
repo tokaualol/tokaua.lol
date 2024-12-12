@@ -1,2 +1,9 @@
-# tokaua.lol-website
-The Source Code For https://tokaua.lol
+# tokaua.lol
+
+Currently Hosted At:
+<br>
+☆ https://nekoweb.org
+<br>
+☆ https://neocities.org
+
+###### 2024 ~ Present
