@@ -30,3 +30,18 @@
         text-align: right;
         word-spacing: 25px;
     }
+
+    .content {
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+    .text-left {
+        font-weight: normal;
+        text-align: left;
+    }
+
+    .text-right {
+        font-weight: normal;
+        text-align: right;
+    }
