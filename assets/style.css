@@ -1,6 +1,7 @@
 *
     {
     font-family: Fredoka;
+    font-weight: normal;
     }
 
     body {
@@ -8,7 +9,7 @@
     }
 
     .alert {
-    padding: 2px;
+    padding: 1.5px;
     background: #FAA0B2;
     color: white;
     font-size: 15px;
@@ -37,11 +38,9 @@
     }
 
     .text-left {
-        font-weight: normal;
         text-align: left;
     }
 
     .text-right {
-        font-weight: normal;
         text-align: right;
     }
