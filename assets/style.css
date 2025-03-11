@@ -26,10 +26,11 @@
     }
 
     .alert {
-        padding: 1.5px;
+        padding: 3px;
         background: var(--pink);
         color: var(--light);
         font-size: 15px;
+        display: flex;
     }
 
     a {
@@ -57,7 +58,7 @@
     .footer {
         margin-top: 150px;
         word-spacing: 20px;
-        text-align:center;
+        text-align: center;
     }
 
     .text-left {
@@ -75,6 +76,10 @@
     .homebutton {
         text-decoration: underline;
         margin-top: 100px;
-        font-size:20px;
-        text-align:center;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .buttons {
+        word-spacing: 1px;
     }
