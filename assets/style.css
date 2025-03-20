@@ -8,14 +8,6 @@
     :root {
         --pink: #FF80C0;
         --pink-secondary: #E573AC;
-        --red: #FFADAD;
-        --orange: #FFD6A5;
-        --yellow: #FDFFB6;
-        --green: #CAFFBF;
-        --blue: #9BF6FF;
-        --blue-secondary: #A0C4FF;
-        --purple: #BDB2FF;
-        --purple-secondary: #FFC6FF;
         --light: #FFFFFF;
         --Slight: #C0C0C0;
         --dark: #000000;
@@ -53,6 +45,7 @@
     .content {
         max-width: 500px;
         margin: 20px auto;
+        overflow: hidden;
     }
 
     .footer {
@@ -63,14 +56,17 @@
 
     .text-left {
         text-align: left;
+        overflow: hidden;
     }
 
     .text-right {
         text-align: right;
+        overflow: hidden;
     }
 
     .text-center {
         text-align: center;
+        overflow: hidden;
     }
 
     .homebutton {
