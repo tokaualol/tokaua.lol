@@ -1,0 +1,60 @@
+:root {
+    --pink: #FFACC0;
+    --pink-secondary: #E573AC;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body {
+    background-color: #FFD8E2;
+    font-family: Fredoka;
+    color: var(--white);
+    font-weight: bold;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.content {
+    width: 700px;
+    margin: auto;
+}
+
+.box {
+    padding: 3px;
+    margin: 5px;
+    background-color: var(--pink);
+    border: var(--white) 1px solid;
+}
+
+#alert {
+    display: flex;
+}
+
+#header {
+    background-position: center;
+    background-image: url(/assets/images/banner.png);
+    background-size: cover;
+    height: 150px;
+}
+
+#nav {
+    text-align: center;
+    word-spacing: 30px;
+}
+
+#buttons {
+    display: flex;
+    margin-top: 3.8px;
+}
+
+#about {
+    text-align: center;
+}
