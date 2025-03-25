@@ -58,3 +58,9 @@ a:hover {
 #about {
     text-align: center;
 }
+
+#footer {
+    margin-top: 200px;
+    word-spacing: 20px;
+    text-align: center;
+}
