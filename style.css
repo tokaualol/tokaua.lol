@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+}
+
 a:hover {
     color: var(--black);
     text-decoration: underline;
@@ -34,13 +38,14 @@ a:hover {
     border: var(--white) 1px solid;
 }
 
+/* ~ box's ~ */
+
 #alert {
     display: flex;
 }
 
 #header {
     background-position: center;
-    background-image: url(/assets/images/banner.png);
     background-size: cover;
     height: 150px;
 }
@@ -56,7 +61,9 @@ a:hover {
 }
 
 #about {
-    text-align: center;
+    padding-left: 100px;
+    padding-right: 70px;
+    padding-bottom: 40px;
 }
 
 #footer {
