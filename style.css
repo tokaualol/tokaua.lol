@@ -22,8 +22,9 @@ p {
 }
 
 a:hover {
-    color: var(--black);
+    color: #FF7A9B;
     text-decoration: underline;
+    transition: 0.2s;
 }
 
 .content {
@@ -51,8 +52,9 @@ a:hover {
 }
 
 #nav {
-    text-align: center;
-    word-spacing: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 #buttons {
@@ -60,14 +62,53 @@ a:hover {
     margin-top: 3.8px;
 }
 
+/* ~ main page ~ */
+
 #about {
     padding-left: 100px;
     padding-right: 70px;
     padding-bottom: 40px;
 }
 
-#footer {
-    margin-top: 200px;
-    word-spacing: 20px;
+/* ~ tools ~ */
+
+#tools {
     text-align: center;
+    padding-bottom: 20px;
+}
+
+#site {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#site a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#site img {
+    height: 110px;
+    padding: 10px;
+}
+
+/* ~ footer ~ */
+
+#gohome {
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 200px;
+}
+
+#footer img {
+    height: 30px;
 }
