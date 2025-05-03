@@ -62,9 +62,31 @@ a:hover {
     margin-top: 3.8px;
 }
 
+/* ~ 404 ~ */
+
+#not_found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#not_found img {
+    padding: 20px;
+    height: 450px;
+}
+
 /* ~ main page ~ */
 
 #about {
+    padding-left: 100px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+
+/* ~ faq ~ */
+
+#faq {
     padding-left: 100px;
     padding-right: 70px;
     padding-bottom: 40px;
@@ -77,23 +99,11 @@ a:hover {
     padding-bottom: 20px;
 }
 
-#site {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-#site a {
+#sites {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5px;
-}
-
-#site img {
-    height: 110px;
-    padding: 10px;
 }
 
 /* ~ footer ~ */
