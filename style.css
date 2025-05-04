@@ -53,6 +53,10 @@ a:hover {
     gap: 30px;
 }
 
+#gohome {
+    text-align: center;
+}
+
 #buttons {
     margin-top: 3.8px;
 }
@@ -99,17 +103,22 @@ a:hover {
 
 /* ~ footer ~ */
 
-#gohome {
-    text-align: center;
-}
-
 #footer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    user-select: none;
     gap: 10px;
     margin-top: 200px;
 }
 
 #footer img {
     height: 30px;
+}
+
+#footer a:last-child {
+    color: #FF7A9B;
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: -10px;
 }
