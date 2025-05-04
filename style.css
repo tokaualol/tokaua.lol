@@ -33,16 +33,12 @@ a:hover {
 }
 
 .box {
+    display: flex;
+    flex-direction: column;
     padding: 3px;
     margin: 5px;
     background-color: var(--pink);
     border: var(--white) 1px solid;
-}
-
-/* ~ box's ~ */
-
-#alert {
-    display: flex;
 }
 
 #header {
@@ -52,21 +48,18 @@ a:hover {
 }
 
 #nav {
-    display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 30px;
 }
 
 #buttons {
-    display: flex;
     margin-top: 3.8px;
 }
 
 /* ~ 404 ~ */
 
 #not_found {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
 }
@@ -89,7 +82,7 @@ a:hover {
 #faq {
     padding-left: 100px;
     padding-right: 70px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 /* ~ tools ~ */
@@ -100,10 +93,8 @@ a:hover {
 }
 
 #sites {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 /* ~ footer ~ */

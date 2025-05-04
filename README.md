@@ -7,7 +7,6 @@ Currently Hosted At:<br>
 
 Credits:<br>
 🌸 Bocchi Art:<br>
-[jjamdal](https://safebooru.donmai.us/posts/8658926)<br>
 [rurushugi](https://safebooru.donmai.us/posts/8843184)<br>
 [メガネぼっち](https://safebooru.donmai.us/posts/8891463)<br>
 [Mokols](https://safebooru.donmai.us/posts/9218941)<br>
