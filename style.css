@@ -1,3 +1,5 @@
+/* ~ page ~ */
+
 :root {
     --pink: #FFACC0;
     --pink-secondary: #E573AC;
@@ -17,14 +19,14 @@ a {
     text-decoration: none;
 }
 
-p {
-    margin: 0;
-}
-
 a:hover {
     color: #FF7A9B;
     text-decoration: underline;
     transition: 0.2s;
+}
+
+p {
+    margin: 0;
 }
 
 .content {
@@ -41,10 +43,24 @@ a:hover {
     border: var(--white) 1px solid;
 }
 
+/* ~ other ~ */
+
 #header {
     background-position: center;
     background-size: cover;
+    justify-content: flex-end;
+    align-items: flex-end;
     height: 150px;
+}
+
+#header a {
+    font-size: smaller;
+    text-shadow: 1px 1px #000000;
+}
+
+#header :hover {
+    font-size: x-large;
+    transform: 0.5s;
 }
 
 #nav {
