@@ -92,8 +92,7 @@ p {
 /* ~ main page ~ */
 
 #about {
-    padding-left: 100px;
-    padding-right: 70px;
+    padding-inline: 100px;
     padding-bottom: 30px;
 }
 
@@ -103,31 +102,27 @@ p {
 
 #webrings {
     text-align: center;
-    padding-left: 100px;
-    padding-right: 70px;
+    padding-inline: 100px;
     padding-bottom: 30px;
 }
 
 /* ~ faq ~ */
 
 #faq {
-    padding-left: 100px;
-    padding-right: 70px;
+    padding-inline: 100px;
     padding-bottom: 30px;
 }
 
 /* ~ tools & resources ~ */
 
 #tools {
-    padding-left: 100px;
-    padding-right: 70px;
+    padding-inline: 100px;
     padding-bottom: 30px;
 }
 
 #resources {
     text-align: right;
-    padding-left: 100px;
-    padding-right: 70px;
+    padding-inline: 100px;
     padding-bottom: 30px;
 }
 
