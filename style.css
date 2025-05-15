@@ -1,5 +1,4 @@
 /* ~ page ~ */
-
 :root {
     --pink: #FFACC0;
     --white: #FFFFFF;
@@ -28,9 +27,26 @@ p {
     margin: 0;
 }
 
-.content {
-    width: 700px;
+.heading {
+    width: 50%;
     margin: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    width: 250px;
+}
+
+.middle {
+    width: 700px;
+}
+
+.right {
+    width: 250px;
 }
 
 .box {
@@ -42,43 +58,39 @@ p {
     border: var(--white) 1px solid;
 }
 
-/* ~ other ~ */
-
-#header {
+/* ~ header ~ */
+#image {
     background-position: center;
     background-size: cover;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 150px;
+    height: 200px;
 }
 
-#header a {
+#image a {
     font-size: smaller;
     text-shadow: 1px 1px #000000;
 }
 
-#header :hover {
+#image :hover {
     font-size: x-large;
     transform: 0.5s;
 }
 
+/* ~ navigation ~ */
 #nav {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
 }
 
+/* ~ gohome ~ */
 #gohome {
     font-size: larger;
     text-align: center;
 }
 
-#buttons {
-    margin-top: 3.8px;
-}
-
 /* ~ 404 ~ */
-
 #not_found {
     align-items: center;
     padding-bottom: 20px;
@@ -90,44 +102,44 @@ p {
 }
 
 /* ~ main page ~ */
-
 #about {
     padding-inline: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 #about a {
-    color: #FF6D9B;
+    color: #FF7CA5;
+}
+
+#buttons {
+    margin-top: 3.8px;
 }
 
 #webrings {
     text-align: center;
-    padding-inline: 100px;
-    padding-bottom: 30px;
+    padding-inline: 50px;
+    padding-bottom: 25px;
 }
 
 /* ~ faq ~ */
-
 #faq {
     padding-inline: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 /* ~ tools & resources ~ */
-
 #tools {
     padding-inline: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 #resources {
     text-align: right;
     padding-inline: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 /* ~ footer ~ */
-
 #footer {
     display: flex;
     justify-content: center;
