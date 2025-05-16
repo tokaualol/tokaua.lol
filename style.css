@@ -121,6 +121,15 @@ p {
     padding-bottom: 25px;
 }
 
+#listening {
+    text-align: center;
+    padding: 15px;
+}
+
+#listening img{
+    padding-block: 15px;
+}
+
 /* ~ faq ~ */
 #faq {
     padding-inline: 100px;
