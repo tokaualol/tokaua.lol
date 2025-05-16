@@ -13,7 +13,7 @@ const getTrack = async () => {
     if(!isPlaying) {
         
         document.getElementById("listening").innerHTML = `
-        <p id="trackStatus">Last Played</p>
+        <a id="trackStatus" href="https://last.fm/user/tokaua">Last Played</a>
         <img src="${json.track.image[2]['#text']}">
         <div id="trackInfo">
         <p id="trackName">${json.track.name}</p>
@@ -23,11 +23,10 @@ const getTrack = async () => {
         return;
     } else {
         currentlyplaying = "Now Playing"
-        console.log("PLAYING")
     }
 
     document.getElementById("listening").innerHTML = `
-    <p id="trackStatus">${currentlyplaying}</p>
+    <a id="trackStatus" href="https://last.fm/user/tokaua">${currentlyplaying}</a>
     <img src="${json.track.image[2]['#text']}" id="coverart">
     <div id="trackInfo">
     <p id="trackName">${json.track.name}</p>
