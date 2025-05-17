@@ -28,13 +28,14 @@ p {
 }
 
 .heading {
-    width: 950px;
+    max-width: 950px;
     margin: auto;
 }
 
 .content {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .left {
@@ -81,6 +82,7 @@ p {
 #nav {
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
