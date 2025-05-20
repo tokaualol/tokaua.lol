@@ -12,6 +12,11 @@ body {
     background-color: #FFD8E2;
 }
 
+/* ~ text ~ */
+p {
+    margin: 0;
+}
+
 a {
     color: var(--white);
     text-decoration: none;
@@ -23,10 +28,7 @@ a:hover {
     transition: 0.2s;
 }
 
-p {
-    margin: 0;
-}
-
+/* ~ misc ~ */
 .heading {
     max-width: 950px;
     margin: auto;
@@ -70,7 +72,7 @@ p {
 
 #image a {
     font-size: smaller;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1px 1px var(--black);
 }
 
 #image :hover {
@@ -99,7 +101,7 @@ p {
 }
 
 #not_found img {
-    padding: 20px;
+    margin: 20px;
     height: 450px;
 }
 
@@ -125,18 +127,29 @@ p {
 
 #listening {
     text-align: center;
-    padding: 15px;
+    margin: 15px;
 }
 
 #listening img{
-    padding-block: 15px;
-    filter: drop-shadow(4px 4px 0px #171717)
+    margin-block: 15px;
+    filter: drop-shadow(4px 4px 0px var(--black))
 }
 
 /* ~ faq ~ */
 #faq {
     padding-inline: 100px;
     padding-bottom: 25px;
+}
+
+/* ~ gallery ~ */
+#gallery {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#images img{
+    height: 150px;
+    border: var(--white) 2px solid
 }
 
 /* ~ tools & resources ~ */
