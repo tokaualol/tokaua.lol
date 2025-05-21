@@ -132,7 +132,7 @@ a:hover {
 
 #listening img{
     margin-block: 15px;
-    filter: drop-shadow(4px 4px 0px var(--black))
+    border: var(--white) 2px solid;
 }
 
 /* ~ faq ~ */
