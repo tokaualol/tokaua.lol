@@ -1,0 +1,15 @@
+h1 {
+    margin-bottom: 20px;
+}
+
+#not_found {
+    text-align: center;
+    padding-inline: 100px;
+    padding-block: 30px;
+}
+
+#not_found img {
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+}

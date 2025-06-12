@@ -1,11 +1,8 @@
-# tokaua.lol
-Currently Hosted At:<br>
+# tokaua's closet
+https://tokaua.lol
+
+Hosted at:<br>
 ☆ https://nekoweb.org
- 
 
-![tokaua.lol button](https://files.catbox.moe/qo7ypi.gif)
-
-Credits:<br>
-🌸 Bocchi Art:<br>
-[Mokols](https://safebooru.donmai.us/posts/9218941)
+suggestions and feedback appreciated :3
 ###### 2024 ~ Present
