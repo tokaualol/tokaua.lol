@@ -1,4 +1,6 @@
 # tokaua's closet
+![Button](/assets/images/buttons/tokaua.lol.gif)
+
 https://tokaua.lol
 
 Hosted at:<br>
