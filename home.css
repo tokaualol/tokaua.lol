@@ -23,7 +23,7 @@ h2 {
 #about img {
     margin: auto;
     margin-top: 30px;
-    width: 50px;
+    width: 70px;
 }
 
 #buttons {
@@ -34,6 +34,29 @@ h2 {
     text-align: center;
     padding-inline: 50px;
     padding-block: 25px;
+}
+
+#status {
+    text-align: center;
+}
+
+#statuscafe {
+    margin: 5px;
+    padding-block: 15px;
+    background-color: #A66EFF;
+    border: 1px solid #FFFFFF;
+}
+
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+
+#statuscafe-content {
+    margin: 0 1em 0.1em 1em;
+}
+
+#imood img {
+    border: 1px solid #FFFFFF;
 }
 
 #listening {
