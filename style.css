@@ -1,0 +1,82 @@
+/* ~ fonts ~ */
+@font-face {
+	font-family: Fredoka;
+	src: url("/assets/fonts/Fredoka.ttf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Minecraft;
+	src: url("/assets/fonts/Minecraft.ttf");
+}
+
+body {
+    font-family: Fredoka;
+    color: #FFFFFF;
+    background-color: #190032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+	height: 100dvh;
+    scrollbar-color: #FFFFFF #190032;
+}
+
+/* ~ text ~ */
+h1 {
+    font-family: Minecraft;
+    margin: 0;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #777777;
+    transition: 0.1s;
+}
+
+p {
+    margin: 0;
+}
+
+.box {
+    padding: 3px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right,#ffadad 0%,#ffd6a5 14.29%,#fdffb6 28.57%,#caffbf 42.86%,#9bf6ff 57.14%,#a0c4ff 71.43%,#bdb2ff 85.71%,#ffc6ff 100%);
+    border-image-slice: 1;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    max-height: 500px;
+    max-width: 150px;
+    padding-inline: 35px;
+    padding-block: 25px;
+}
+
+.pixel {
+    user-select: none;
+    margin-top: auto;
+    image-rendering: pixelated
+}
+
+.stuff {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    max-height: 500px;
+    max-width: 500px;
+    padding-inline: 70px;
+    padding-block: 25px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}

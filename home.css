@@ -1,70 +1,39 @@
 #about {
+    align-items: center;
     text-align: center;
-    padding-inline: 100px;
-    padding-block: 30px;
-}
-
-h1 {
-    margin-bottom: 20px;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-.interests {
-    text-decoration: underline;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-#about img {
-    margin: auto;
-    margin-top: 30px;
-    width: 70px;
 }
 
 #buttons {
-    margin-top: 3.8px;
+    margin-bottom: -8px;
 }
 
-#webrings {
-    text-align: center;
-    padding-inline: 50px;
-    padding-block: 25px;
-}
-
-#status {
-    text-align: center;
-}
-
-#statuscafe {
-    margin: 5px;
-    padding-block: 15px;
-    background-color: #A66EFF;
-    border: 1px solid #FFFFFF;
-}
-
-#statuscafe-username {
-    margin-bottom: .5em;
-}
-
-#statuscafe-content {
-    margin: 0 1em 0.1em 1em;
-}
-
-#imood img {
-    border: 1px solid #FFFFFF;
+.socials {
+    display: flex;
+    gap: 10px;
 }
 
 #listening {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-block: 15px;
+    padding-block: 5px;
 }
 
 #listening img {
-    margin-block: 15px;
-    border: var(--white) 1px solid;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right,#ffadad 0%,#ffd6a5 14.29%,#fdffb6 28.57%,#caffbf 42.86%,#9bf6ff 57.14%,#a0c4ff 71.43%,#bdb2ff 85.71%,#ffc6ff 100%);
+    border-image-slice: 1;
+    margin: 7px;
+}
+
+#status {
+    margin: 5px;
+    padding-inline: 15px;
+    padding-block: 10px;
+}
+
+#imood {
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right,#ffadad 0%,#ffd6a5 14.29%,#fdffb6 28.57%,#caffbf 42.86%,#9bf6ff 57.14%,#a0c4ff 71.43%,#bdb2ff 85.71%,#ffc6ff 100%);
+    border-image-slice: 1;
 }
