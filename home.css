@@ -1,15 +1,5 @@
-#about {
-    align-items: center;
-    text-align: center;
-}
-
 #buttons {
     margin-bottom: -8px;
-}
-
-.socials {
-    display: flex;
-    gap: 10px;
 }
 
 #listening {
@@ -27,7 +17,7 @@
 }
 
 #status {
-    margin: 5px;
+    margin-block: 5px;
     padding-inline: 15px;
     padding-block: 10px;
 }

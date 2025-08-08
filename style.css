@@ -59,14 +59,21 @@ p {
 }
 
 .pixel {
+    display: flex;
+    justify-content: center;
     user-select: none;
     margin-top: auto;
-    image-rendering: pixelated
+    image-rendering: pixelated;
+}
+
+.pixel img {
+    height: 100px;
 }
 
 .stuff {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     overflow: auto;
     max-height: 500px;
     max-width: 500px;
