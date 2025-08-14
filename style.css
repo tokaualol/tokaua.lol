@@ -15,6 +15,7 @@ body {
     color: #FFFFFF;
     background-color: #190032;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -52,7 +53,7 @@ p {
     display: flex;
     flex-direction: column;
     overflow: auto;
-    max-height: 500px;
+    height: 450px;
     max-width: 150px;
     padding-inline: 35px;
     padding-block: 25px;
@@ -75,8 +76,8 @@ p {
     flex-direction: column;
     justify-content: center;
     overflow: auto;
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 450px;
+    max-width: 550px;
     padding-inline: 70px;
     padding-block: 25px;
 }
