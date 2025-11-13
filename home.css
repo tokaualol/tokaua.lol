@@ -1,29 +1,8 @@
-#buttons {
-    margin-bottom: -8px;
+.buttons {
+    image-rendering: pixelated;
+    max-width: 300px;
 }
 
-#listening {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-block: 5px;
-}
-
-#listening img {
-    border: 1px solid transparent;
-    border-image: linear-gradient(to bottom right,#ffadad 0%,#ffd6a5 14.29%,#fdffb6 28.57%,#caffbf 42.86%,#9bf6ff 57.14%,#a0c4ff 71.43%,#bdb2ff 85.71%,#ffc6ff 100%);
-    border-image-slice: 1;
-    margin: 7px;
-}
-
-#status {
-    margin-block: 5px;
-    padding-inline: 15px;
-    padding-block: 10px;
-}
-
-#imood {
-    border: 1px solid transparent;
-    border-image: linear-gradient(to bottom right,#ffadad 0%,#ffd6a5 14.29%,#fdffb6 28.57%,#caffbf 42.86%,#9bf6ff 57.14%,#a0c4ff 71.43%,#bdb2ff 85.71%,#ffc6ff 100%);
-    border-image-slice: 1;
+.buttons:hover {
+    cursor: pointer;
 }
