@@ -1,3 +1,48 @@
+.stuff p {
+    margin: 0;
+    font-size: 120%;
+    padding-left: 50px;
+}
+
+.stuff a {
+    text-decoration: none;
+}
+
+.box {
+    width: 400px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+#socials {
+    background-image: url(/assets/images/1280x720.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#gallery {
+    background-image: url(/assets/images/1280x720.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#archive {
+    background-image: url(/assets/images/1280x720.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
 .buttons {
     image-rendering: pixelated;
     max-width: 300px;

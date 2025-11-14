@@ -37,12 +37,24 @@ p {
 
 h1 {
 	font-family: Minecraft;
+	margin: 0;
+}
+
+a {
+	transition: 0.3s;
+	color: #FFFFFF;
+}
+
+a:hover {
+	transition: 0.3s;
+	color: #bebebe;
 }
 
 .box {
-	border: 2px solid #000000;
-	border-radius: 2px;
-	margin: 3px;
+	border: 2px solid #FFFFFF;
+	box-shadow: 2px 2px 2px #000000;
+	border-radius: 5px;
+	margin: 10px;
 	padding: 10px;
 }
 
