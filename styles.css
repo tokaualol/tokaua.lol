@@ -1,13 +1,13 @@
 /* ~ fonts ~ */
 @font-face {
 	font-family: Fredoka;
-	src: url("/assets/fonts/Fredoka.ttf");
+	src: url("./assets/fonts/Fredoka.ttf");
 	font-weight: 500;
 }
 
 @font-face {
 	font-family: Minecraft;
-	src: url("/assets/fonts/Minecraft.ttf");
+	src: url("./assets/fonts/Minecraft.ttf");
 }
 
 body {
