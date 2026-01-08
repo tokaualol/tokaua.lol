@@ -6,15 +6,20 @@
 }
 
 @font-face {
+	font-family: Renogare;
+	src: url("./assets/fonts/Renogare.otf");
+}
+
+@font-face {
 	font-family: Minecraft;
-	src: url("./assets/fonts/Minecraft.ttf");
+	src: url("./assets/fonts/Mojangles.woff2");
 }
 
 body {
 	font-family: Fredoka;
 	font-size: 150%;
 	color: #FFFFFF;
-	text-shadow: 2px 2px 2px #000000;
+	text-shadow: 2px 2px 0px #000000;
 	background: fixed;
 	background-color: #A673FF;
 	background-image: linear-gradient(to bottom, #A673FF, #DBC7ff);
