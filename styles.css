@@ -1,13 +1,12 @@
 /* ~ fonts ~ */
 @font-face {
-	font-family: Fredoka;
-	src: url("./assets/fonts/Fredoka.ttf");
-	font-weight: 500;
+	font-family: Renogare;
+	src: url("./assets/fonts/Renogare.otf");
 }
 
 @font-face {
-	font-family: Renogare;
-	src: url("./assets/fonts/Renogare.otf");
+	font-family: Fredoka;
+	src: url("./assets/fonts/Fredoka.ttf");
 }
 
 @font-face {
@@ -16,16 +15,28 @@
 }
 
 body {
-	font-family: Fredoka;
-	font-size: 150%;
 	color: #FFFFFF;
-	text-shadow: 2px 2px 0px #000000;
+	text-shadow: 0px 3px 0px #000000;
+	font-family: Renogare;
+	font-size: 1.5rem;
 	background: fixed;
 	background-color: #A673FF;
 	background-image: linear-gradient(to bottom, #A673FF, #DBC7ff);
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	margin: 0;
+}
+
+.alert {
+	width: 100%;
+	font-size: 1rem;
+	background-color: #7450b2;
+}
+
+.alert div {
+	display: flex;
+	margin-block: 5px;
 }
 
 .content {
@@ -33,20 +44,14 @@ body {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	width: 600px;
+	max-width: 700px;
 }
 
 p {
-	margin: 0px 0px 20px;
-}
-
-h1 {
-	font-family: Minecraft;
-	margin: 0;
+	margin: 0px 0px 25px;
 }
 
 a {
-	transition: 0.3s;
 	color: #FFFFFF;
 }
 
@@ -55,12 +60,25 @@ a:hover {
 	color: #bebebe;
 }
 
+h1 {
+	font-family: Minecraft;
+	margin: 0;
+}
+
 .box {
+    width: 400px;
+    height: 50px;
+    transition: 0.3s;
 	border: 2px solid #FFFFFF;
-	box-shadow: 2px 2px 2px #000000;
+	box-shadow: 3px 3px 0px #000000;
 	border-radius: 5px;
-	margin: 10px;
+	margin-block: 10px;
 	padding: 10px;
+}
+
+.box:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 .inetkun {

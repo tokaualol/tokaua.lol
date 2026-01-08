@@ -1,22 +1,11 @@
 .stuff p {
     margin: 0;
-    font-size: 120%;
-    padding-left: 50px;
+    font-size: 2rem;
+    padding-left: 2em;
 }
 
 .stuff a {
     text-decoration: none;
-}
-
-.box {
-    width: 400px;
-    height: 50px;
-    transition: 0.3s;
-}
-
-.box:hover {
-    transition: 0.3s;
-    transform: scale(1.1);
 }
 
 #socials {
@@ -45,7 +34,7 @@
 
 .buttons {
     image-rendering: pixelated;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .buttons:hover {
