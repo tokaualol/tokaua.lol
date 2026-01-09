@@ -1,17 +1,12 @@
 /* ~ fonts ~ */
 @font-face {
 	font-family: Renogare;
-	src: url("./assets/fonts/Renogare.otf");
-}
-
-@font-face {
-	font-family: Fredoka;
-	src: url("./assets/fonts/Fredoka.ttf");
+	src: url("/assets/fonts/Renogare.otf");
 }
 
 @font-face {
 	font-family: Minecraft;
-	src: url("./assets/fonts/Mojangles.woff2");
+	src: url("/assets/fonts/Mojangles.woff2");
 }
 
 body {
@@ -72,13 +67,22 @@ h1 {
 	border: 2px solid #FFFFFF;
 	box-shadow: 3px 3px 0px #000000;
 	border-radius: 5px;
-	margin-block: 10px;
-	padding: 10px;
+	margin: 5px;
+	padding: 5px;
+    background-size: cover;
+    background-position: center;
 }
 
 .box:hover {
     transition: 0.3s;
     transform: scale(1.1);
+}
+
+#home {
+	display: flex;
+	justify-content: center;
+    width: 200px;
+    height: 30px;
 }
 
 .inetkun {

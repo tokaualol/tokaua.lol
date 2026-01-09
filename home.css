@@ -1,35 +1,42 @@
+.stuff {
+    display: flex;
+    flex-direction: column;
+}
+
 .stuff p {
     margin: 0;
     font-size: 2rem;
-    padding-left: 2em;
+    padding-inline: 2em;
 }
 
 .stuff a {
     text-decoration: none;
 }
 
-#socials {
-    background-image: url(./assets/images/1280x720.svg);
-    background-size: cover;
-    background-position: center;
+#links {
+    background-image: url(/assets/images/1280x720.svg);
     display: flex;
     align-items: center;
 }
 
+#blog {
+    background-image: url(/assets/images/1280x720.svg);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
 #gallery {
-    background-image: url(./assets/images/1280x720.svg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(/assets/images/1280x720.svg);
     display: flex;
     align-items: center;
 }
 
 #archive {
-    background-image: url(./assets/images/1280x720.svg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(/assets/images/1280x720.svg);
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 
 .buttons {

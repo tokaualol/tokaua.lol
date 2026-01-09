@@ -1,0 +1,61 @@
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links p {
+    margin: 0;
+    font-size: 2rem;
+    padding-inline: 2em;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links img {
+    height: 35px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    width: 55px;
+    padding-inline: 15px;
+}
+
+#youtube {
+    background-color: #FF0033;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#twitch {
+    background-color: #9146FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bluesky {  
+    background-color: #1185FE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#discord {
+    background-color: #5865F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#telegram {
+    background-color: #2AABEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
