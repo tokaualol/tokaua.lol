@@ -1,11 +1,8 @@
-.links p {
+.links a {
+    text-decoration: none;
     margin: 0;
     font-size: 2rem;
     padding-inline: 2em;
-}
-
-.links a {
-    text-decoration: none;
 }
 
 .links img {
