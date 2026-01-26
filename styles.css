@@ -27,7 +27,7 @@ body {
 .alert {
 	width: 100%;
 	font-size: 1rem;
-	background-color: #9567E5;
+	background-color: #00000020;
 }
 
 .alert div {
@@ -59,7 +59,7 @@ h1 {
 }
 
 .box {
-    max-width: 400px;
+    max-width: 270px;
     height: 50px;
     transition: 0.3s;
 	border: 2px solid #FFFFFF;
@@ -74,15 +74,4 @@ h1 {
 .box:hover {
     transition: 0.3s;
     transform: scale(1.1);
-}
-
-#home {
-    max-width: 200px;
-    height: 35px;
-	align-content: center;
-	margin-inline: auto;
-}
-
-#home p {
-	margin: 0;
 }

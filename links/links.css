@@ -1,6 +1,7 @@
 .links a {
+	display: flex;
+	align-items: center;
     text-decoration: none;
-    margin: 0;
     font-size: 2rem;
     padding-inline: 2em;
 }
@@ -12,62 +13,41 @@
 .social {
     display: flex;
     justify-content: center;
+    margin-left: auto;
     width: 55px;
-    padding-inline: 15px;
 }
 
 #youtube {
     background-color: #FF0033;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-inline: auto;
+	margin-inline: auto;
 }
 
 #twitch {
     background-color: #9146FF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-inline: auto;
+	margin-inline: auto;
 }
 
 #bluesky {  
     background-color: #1185FE;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-inline: auto;
+	margin-inline: auto;
 }
 
 #discord {
     background-color: #5865F2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-inline: auto;
+	margin-inline: auto;
 }
 
 #telegram {
     background-color: #2AABEE;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-inline: auto;
+	margin-inline: auto;
 }
 
 #ko-fi {
     background-color: #FF6433;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-inline: auto;
+	margin-inline: auto;
 }
 
 #throne {
     background-color: #2E2EE4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-inline: auto;
+	margin-inline: auto;
 }

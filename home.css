@@ -1,37 +1,30 @@
 .stuff a {
+	display: flex;
+	align-items: center;
     text-decoration: none;
-    margin: 0;
     font-size: 2rem;
     padding-inline: 2em;
 }
 
 #links {
     background-image: url(/assets/images/);
-    display: flex;
-    align-items: center;
 	margin-inline: auto;
 }
 
 #blog {
     background-image: url(/assets/images/);
-    display: flex;
-    align-items: center;
-    justify-content: end;
+	justify-content: flex-end;
 	margin-inline: auto;
 }
 
 #gallery {
     background-image: url(/assets/images/);
-    display: flex;
-    align-items: center;
 	margin-inline: auto;
 }
 
 #archive {
     background-image: url(/assets/images/);
-    display: flex;
-    align-items: center;
-    justify-content: end;
+	justify-content: flex-end;
 	margin-inline: auto;
 }
 
