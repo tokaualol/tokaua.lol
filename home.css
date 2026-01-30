@@ -7,7 +7,8 @@
 }
 
 #links {
-    background-image: url(/assets/images/);
+    /* background-image: url(/assets/images/); */
+	background-color: #A673FF;
 	margin-inline: auto;
 }
 
