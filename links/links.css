@@ -2,6 +2,7 @@
 	display: flex;
 	align-items: center;
     text-decoration: none;
+	margin-inline: auto;
     font-size: 2rem;
     padding-inline: 2em;
 }
@@ -19,35 +20,32 @@
 
 #youtube {
     background-color: #FF0033;
-	margin-inline: auto;
 }
 
 #twitch {
     background-color: #9146FF;
-	margin-inline: auto;
 }
 
 #bluesky {  
     background-color: #1185FE;
-	margin-inline: auto;
 }
 
 #discord {
     background-color: #5865F2;
-	margin-inline: auto;
 }
 
 #telegram {
     background-color: #2AABEE;
-	margin-inline: auto;
 }
 
 #ko-fi {
     background-color: #FF6433;
-	margin-inline: auto;
+}
+
+#github {
+    background-color: #232925;
 }
 
 #throne {
     background-color: #2E2EE4;
-	margin-inline: auto;
 }

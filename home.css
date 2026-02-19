@@ -2,6 +2,7 @@
 	display: flex;
 	align-items: center;
     text-decoration: none;
+	margin-inline: auto;
     font-size: 2rem;
     padding-inline: 2em;
 }
@@ -9,33 +10,29 @@
 #links {
     /* background-image: url(/assets/images/); */
 	background-color: #A673FF;
-	margin-inline: auto;
 }
 
 #blog {
-    background-image: url(/assets/images/);
+	background-color: #A673FF;
 	justify-content: flex-end;
-	margin-inline: auto;
 }
 
 #gallery {
-    background-image: url(/assets/images/);
-	margin-inline: auto;
+	background-color: #A673FF;
 }
 
-#archive {
-    background-image: url(/assets/images/);
+#archives {
+	background-color: #A673FF;
 	justify-content: flex-end;
-	margin-inline: auto;
 }
 
 .buttons {
+	margin-inline: auto;
     image-rendering: pixelated;
     max-width: 400px;
-	margin-inline: auto;
 }
 
-.buttons:hover {
+.buttons a:hover {
     cursor: pointer;
 }
 
@@ -47,7 +44,7 @@
 }
 
 .tokaua img {
-	height: 200px;
+	height: 250px;
 	margin-inline: 20%;
 	filter: drop-shadow(3px 3px 0px #000000);
 } */
