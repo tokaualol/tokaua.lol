@@ -7,12 +7,11 @@
     padding-inline: 2em;
 }
 
-#links {
-    /* background-image: url(/assets/images/); */
+#about {
 	background-color: #A673FF;
 }
 
-#blog {
+#links {
 	background-color: #A673FF;
 	justify-content: flex-end;
 }
@@ -21,9 +20,13 @@
 	background-color: #A673FF;
 }
 
-#archives {
+#blog {
 	background-color: #A673FF;
 	justify-content: flex-end;
+}
+
+#archives {
+	background-color: #A673FF;
 }
 
 .buttons {

@@ -5,3 +5,25 @@ body {
 p {
     margin: 0;
 }
+
+.name {
+    color: #8CE3F4;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.name:hover {
+    transition: 0.3s;
+    letter-spacing: 10px;
+}
+
+#listening {
+    display: flex;
+    flex-direction: column;
+}
+
+#listening img {
+    width: 200px;
+    margin-block: 15px;
+    border: #FFFFFF 2px solid;
+}
