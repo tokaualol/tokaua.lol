@@ -13,20 +13,18 @@
 
 #links {
 	background-color: #A673FF;
-	justify-content: flex-end;
 }
 
 #gallery {
 	background-color: #A673FF;
 }
 
-#blog {
-	background-color: #A673FF;
-	justify-content: flex-end;
+#hideout {
+	background-color: #64BCFF;
 }
 
-#archives {
-	background-color: #A673FF;
+#archive {
+	background-color: #FAADD4;
 }
 
 .buttons {

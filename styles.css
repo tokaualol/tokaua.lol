@@ -27,12 +27,9 @@ body {
 .alert {
 	width: 100%;
 	font-size: 1rem;
-	background-color: #00000020;
-}
-
-.alert div {
+	padding-block: 5px;
 	display: flex;
-	margin-block: 5px;
+	background-color: #00000020;
 }
 
 .content {
