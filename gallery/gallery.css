@@ -3,14 +3,14 @@
 }
 
 img {
-    height: 200px;
-    transition: 0.3s;
     border: 2px solid #FFFFFF;
     border-radius: 10px;
+    height: 200px;
+    transition: 0.3s;
 }
 
 img:hover {
-    transition: 0.3s;
-    transform: scale(1.03);
     cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.3s;
 }

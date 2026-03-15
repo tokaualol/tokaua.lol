@@ -1,4 +1,3 @@
-/* ~ fonts ~ */
 @font-face {
 	font-family: Renogare;
 	src: url("/assets/fonts/Renogare.otf");
@@ -17,30 +16,38 @@ body {
 	background: fixed;
 	background-color: #A673FF;
 	background-image: linear-gradient(to bottom, #A673FF, #D2B9FF);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	text-align: center;
+	padding-inline: 25px;
 	margin: 0;
 }
 
-.alert {
-	width: 100%;
-	font-size: 1rem;
-	padding-block: 5px;
+marquee {
 	display: flex;
+	align-items: center;
+	text-shadow: 0px 2px 0px #000000;
+	height: 25px;
+}
+
+.alert {
+	font-size: 1rem;
 	background-color: #00000020;
+	display: flex;
+	padding-block: 3px;
+}
+
+.banner {
+	border: 3px solid #FFFFFF;
+	border-radius: 10px;
+	background-position: center;
+	background-size: cover;
+	max-width: 800px;
+	height: 230px;
+	margin: auto;
 }
 
 .content {
 	max-width: 600px;
-	min-height: 100vh;
-	margin-inline: 30px;
-}
-
-p {
-	margin: 0px 0px 25px;
-	white-space: pre-line;
+	margin: auto;
 }
 
 a {
@@ -48,34 +55,32 @@ a {
 }
 
 a:hover {
+	color: #CCCCCC;
 	transition: 0.3s;
-	color: #cccccc;
 }
 
 h1 {
 	font-family: Minecraft;
-	margin: 0;
 }
 
 h2 {
 	font-family: Minecraft;
-	margin: 0;
 }
 
 .box {
-    max-width: 270px;
-    height: 50px;
-    transition: 0.3s;
-	border: 3px solid #00000050;
-	border-radius: 10px;
-	margin: 10px;
-	padding: 5px;
     background-size: cover;
     background-position: center;
+	border: 3px solid #00000050;
+	border-radius: 10px;
+    max-width: 260px;
+    height: 50px;
+	margin: 10px;
+	padding: 5px;
+    transition: 0.3s;
 }
 
 .box:hover {
-    transition: 0.3s;
-    transform: scale(1.1);
 	box-shadow: 0px 3px 5px #00000050;
+    transform: scale(1.1);
+    transition: 0.3s;
 }

@@ -1,10 +1,14 @@
 .stuff a {
+    font-size: 2rem;
 	display: flex;
 	align-items: center;
     text-decoration: none;
 	margin-inline: auto;
-    font-size: 2rem;
     padding-inline: 2em;
+}
+
+#gfdkris {
+	margin-block: 1em;
 }
 
 #about {
@@ -28,27 +32,14 @@
 }
 
 .buttons {
-	margin-inline: auto;
     image-rendering: pixelated;
+	margin-inline: auto;
     max-width: 400px;
 }
 
 .buttons a:hover {
     cursor: pointer;
 }
-
-/* .tokaua {
-	display: flex;
-	width: 100%;
-	margin-top: 200px;
-	flex-grow: 1;
-}
-
-.tokaua img {
-	height: 250px;
-	margin-inline: 20%;
-	filter: drop-shadow(3px 3px 0px #000000);
-} */
 
 /* ~ animations ~ */
 @keyframes wave {
@@ -92,32 +83,35 @@
 	display: inline-flex
 }
 
-#name.wave .letter:where(.wave):nth-child(1) {
+#name h1 {
+	margin: 0;
+}
+
+#name.wave .letter:where(.wave) {
 	animation: 1.5s wave infinite ease-in-out;
 	animation-delay: .1s;
 }
 
+#name.wave .letter:where(.wave):nth-child(1) {
+	animation-delay: .1s;
+}
+
 #name.wave .letter:where(.wave):nth-child(2) {
-	animation: 1.5s wave infinite ease-in-out;
 	animation-delay: .2s;
 }
 
 #name.wave .letter:where(.wave):nth-child(3) {
-	animation: 1.5s wave infinite ease-in-out;
 	animation-delay: .3s;
 }
 
 #name.wave .letter:where(.wave):nth-child(4) {
-	animation: 1.5s wave infinite ease-in-out;
 	animation-delay: .4s;
 }
 
 #name.wave .letter:where(.wave):nth-child(5) {
-	animation: 1.5s wave infinite ease-in-out;
 	animation-delay: .5s;
 }
 
 #name.wave .letter:where(.wave):nth-child(6) {
-	animation: 1.5s wave infinite ease-in-out;
 	animation-delay: .6s;
 }
