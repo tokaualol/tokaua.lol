@@ -3,6 +3,7 @@
 }
 
 img {
+    margin: 3px;
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     height: 200px;
@@ -13,4 +14,10 @@ img:hover {
     cursor: pointer;
     transform: scale(1.03);
     transition: 0.3s;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
