@@ -1,7 +1,6 @@
 .stuff a {
-    font-size: 2rem;
+    font-size: 1.3em;
 	display: flex;
-	align-items: center;
     text-decoration: none;
 	margin-inline: auto;
     padding-inline: 2em;
@@ -34,8 +33,6 @@
 
 .buttons {
     image-rendering: pixelated;
-	margin-inline: auto;
-    max-width: 400px;
 }
 
 .buttons a:hover {
@@ -45,38 +42,45 @@
 /* ~ animations ~ */
 @keyframes wave {
 	0% {
-		transform: translateY(0);
-		color: #FFADAD;
+		color: #FDA6BF;
 	}
 
-	14.29% {
-		color: #FFD6A5;
+	11.11% {
+		color: #FDC3A6;
 	}
 
-	28.57% {
-		color: #FDFFB6;
+	22.22% {
+		color: #FDEEA6;
 	}
 
-	42.86% {
-		color: #CAFFBF;
+	33.33% {
+		color: #AAFDA6;
 	}
 
-	57.14% {
+	44.44% {
+		color: #A6FDE4;
+	}
+
+	55.56% {
 		transform: translateY(-8px);
-		color: #9BF6FF;
+		color: #A6D3FD;
 	}
 
-	71.43% {
-		color: #A0C4FF;
+	66.67% {
+		color: #A6B9FD;
 	}
 
-	85.71% {
-		color: #BDB2FF;
+	77.78% {
+		color: #b5a6fd;
+	}
+
+	88.89% {
+		color: #DCA6FD;
 	}
 
 	100% {
 		transform: translateY(0);
-		color: #FFADAD;
+		color: #FDA6E2;
 	}
 }
 

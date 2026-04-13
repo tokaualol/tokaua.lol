@@ -11,14 +11,13 @@
 body {
 	font-family: Renogare;
 	color: #FFFFFF;
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	text-shadow: 0px 3px 0px #000000;
 	background: fixed;
 	background-color: #A673FF;
 	background-image: linear-gradient(to bottom, #A673FF, #D2B9FF);
 	text-align: center;
-	padding-inline: 25px;
-	margin: 0;
+	margin: 1em;
 }
 
 marquee {
@@ -29,20 +28,27 @@ marquee {
 }
 
 .alert {
-	font-size: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	font-size: 0.65em;
 	background-color: #00000020;
-	display: flex;
-	padding-block: 3px;
+	padding-block: 2px;
 }
 
 .banner {
+	max-width: 800px;
+	margin: auto;
+}
+
+.image {
 	border: 3px solid #FFFFFF;
 	border-radius: 10px;
 	background-position: center;
 	background-size: cover;
-	max-width: 800px;
 	height: 230px;
-	margin: auto;
 }
 
 .content {
@@ -72,9 +78,9 @@ h2 {
     background-position: center;
 	border: 3px solid #00000050;
 	border-radius: 10px;
-    max-width: 260px;
+    max-width: 250px;
 	margin: 10px;
-	padding-block: 13px;
+	padding-block: 10px;
     transition: 0.3s;
 }
 

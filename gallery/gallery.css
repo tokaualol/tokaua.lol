@@ -12,7 +12,6 @@ img {
 
 img:hover {
     cursor: pointer;
-    transform: scale(1.03);
     transition: 0.3s;
 }
 
@@ -20,4 +19,8 @@ img:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+details {
+    margin-block: 1em;
 }
