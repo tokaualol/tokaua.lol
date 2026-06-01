@@ -84,7 +84,6 @@
 	}
 
 	100% {
-		transform: translateY(0);
 		color: #FDA6E2;
 	}
 }
@@ -99,10 +98,6 @@
 
 #name.wave .letter:where(.wave) {
 	animation: 1.5s wave infinite ease-in-out;
-	animation-delay: .1s;
-}
-
-#name.wave .letter:where(.wave):nth-child(1) {
 	animation-delay: .1s;
 }
 
