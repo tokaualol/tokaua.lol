@@ -1,6 +1,7 @@
 .stuff a {
     font-size: 1.3em;
 	display: flex;
+	align-items: center;
 	text-decoration: none;
     padding-inline: 2em;
 }
@@ -11,6 +12,7 @@
 }
 
 #gfdkris {
+	flex-direction: column;
 	margin-block: 1em;
 }
 
