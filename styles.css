@@ -35,7 +35,7 @@ marquee {
 	font-size: 0.65em;
 	background-color: #00000030;
 	padding-block: 2px;
-	z-index: 1;
+	z-index: 999;
 }
 
 .image {
@@ -47,6 +47,20 @@ marquee {
 
 .content {
 	max-width: 600px;
+}
+
+.aubrey {
+	width: 500px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+@media screen and (max-width: 1145px) {
+	.aubrey {
+		display: none;
+	}
 }
 
 a {
