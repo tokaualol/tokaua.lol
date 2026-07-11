@@ -21,7 +21,7 @@ const getTrack = async () => {
     }
     
     else {
-        currentlyplaying = "Now Playing"
+        currentlyplaying = "Currently Playing"
     }
 
     document.getElementById("listening").innerHTML = `

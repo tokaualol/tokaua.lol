@@ -1,3 +1,9 @@
+@media screen and (max-width: 1605px) {
+	.aubrey {
+		display: none;
+	}
+}
+
 .image {
     max-width: 600px;
 }
@@ -6,21 +12,16 @@
     max-width: 1000px;
 }
 
-img {
+#images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#images img {
     margin-inline: 3px;
     border: 2px solid #FFFFFF;
     max-width: 100%;
     max-height: 200px;
-}
-
-img:hover {
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#images {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 details {
