@@ -20,6 +20,12 @@ body {
 	margin-block: 1em;
 }
 
+@media screen and (max-width: 500px) {
+	body {
+		margin-inline: 1.5em;
+	}
+}
+
 .background {
 	position: fixed;
 	z-index: -999;
