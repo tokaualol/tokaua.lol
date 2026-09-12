@@ -5,7 +5,6 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta property="og:locale" content="en-us"/>
         <meta property="og:type" content="website"/>
-        <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon"/>
         <title>tokaua > not found</title>
         <meta property="og:title" content="tokaua > not found"/>
         <meta property="og:url" content="https://tokaua.lol"/>
@@ -17,25 +16,38 @@
 
     <style>
         body {
+            text-align: center;
             background-color: #000000;
             background-image: none;
-            margin-block: 0;
+            margin: 0;
         }
-        
         .content {
-            align-content: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
             min-height: 100vh;
+            max-width: none;
+        }
+        .tree {
+            height: 250px;
+            image-rendering: pixelated;
+        }
+        a {
+            font-size: 0.7em;
+            text-shadow: none;
         }
     </style>
     
     <body>
-        <img class="aubrey" src="">
-        
-        <div class="content">
-            <h1>page not found</h1>
+        <script>
+            var music = new Audio("/assets/deltarune_piano_collections_by_trevor_alan_gomes.ogg"); 
+        </script>
 
-            <p>Oops! this page no longer exists!<br>if you think this is an error, please contact me.</p>
-            <a href="/">return home</a>
+        <div class="content">
+            <img onclick="music.play()" class="tree" draggable="false" src="/assets/images/tree.png">
+            <p>Well, there is not a link here.<br><a href="/">return home</a></p>
         </div>
+        <p style="font-size: 0.5em;">If you believe this may be an error, please contact me.</p>
     </body>
 </html>
